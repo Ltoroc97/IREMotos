@@ -1,0 +1,104 @@
+
+<style type="text/css">
+/* Made with love by Mutiullah Samim*/
+
+	@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+	html,body{
+	background-image: url("../Assets/Image/background_moto.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+	}
+
+
+	.container{
+	height: 100%;
+	align-content: center;
+	}
+
+
+	.card{
+	height: 500px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 650px;
+	background-color: rgba(0,0,0,0.1) !important;
+	}
+
+
+
+	.logo_formulario{
+	height: 50%;
+	width: 90%;
+	margin-top: -78px;
+	}
+
+
+	.FormularioRegistro{
+	column-count: 2;
+	position: absolute;
+	top: 150px;
+ 	right: 0;
+ 	left: -50px;
+
+
+	}
+
+
+	.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -5px;
+	margin-left: -15px;
+	flex-direction: column;
+	align-content: space-around;
+	}
+
+
+	.MensajeRegistro{
+	column-count: 1;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+	}
+
+
+	.form-control{
+	width: 250px;
+	color: black;
+	border:1 !important;
+	border-radius: 22px;
+	}
+
+
+	.btn-warning:hover{
+	color: black;
+	background-color: white;
+    border-radius: 22px;
+    background-position: center;
+
+	}
+
+
+	.boton_formulario_registro{
+	width: 30%;
+    border-radius: 22px;
+    margin-left: 63%;
+    margin-top: 35%;
+    color: white;
+	}
+
+	.linksRegistro{
+	color: black;
+	width: 30%;
+    margin-right: 300%;
+
+	}
+
+
+
+</style>
