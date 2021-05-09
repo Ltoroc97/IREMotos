@@ -1,66 +1,59 @@
-<style type="text/css">
+
 /* Made with love by Mutiullah Samim*/
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
-	
+
 
 html,body{
-background-image: url('../Assets/Image/background_moto.jpeg');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
+	background-image: url('../Assets/Image/background_moto.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-family: 'Numans', sans-serif;
 }
-
 
 .container{
-height: 100%;
-align-content: center;
+	height: 100%;
+	align-content: center;
 }
-
 
 .card{
-height: 420px;
-margin-top: auto;
-margin-bottom: auto;
-width: 450px;
-background-color: rgba(0,0,0,0.2) !important;
+	height: 350px !important;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 450px;
+	background-color: rgba(0,0,0,0.2) !important;
+	color: white;
+
+
 }
-
-
-.logo_formulario{
-height: 50%;
-width: 90%;
-margin-top: -78px;
-}
-
 
 .social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #FFC312;
+	font-size: 60px;
+	margin-left: 10px;
+	color: #FFC312;
 }
 
 .social_icon span:hover{
-color: white;
-cursor: pointer;
+	color: white;
+	cursor: pointer;
 }
 
 .card-header h3{
-color: white;
+	color: white;
 }
 
 .social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
+	position: absolute;
+	right: 20px;
+	top: -45px;
 }
 
 .input-group-prepend span{
-width: 50px;
-background-color: #FFC312;
-color: black;
-border:0 !important;
+	width: 50px;
+	background-color: #FFC312;
+	color: black;
+	border:0 !important;
 }
 
 input:focus{
@@ -70,22 +63,23 @@ box-shadow: 0 0 0 0 !important;
 }
 
 .login_btn{
-color: black;
-background-color: #FFC312;
-width: 100px;
+	color: black;
+	background-color: #FFC312;
+	width: 100px;
 }
 
 .login_btn:hover{
-color: black;
-background-color: white;
+	color: black;
+	background-color: white;
 }
 
 .links{
-color: white;
+	color: white;
 }
 
 .links a{
-margin-left: 4px;
+	margin-left: 4px;
+	color: white;
 }
 
 .logo_formulario{
@@ -94,6 +88,18 @@ margin-left: 4px;
 	margin-top: -68px;
 }
 
+.card_formulario{
+	margin-top: -16%;
+}
 
+.boton_formulario_ingreso{
+	width: 70%;
+    border-radius: 22px;
+    margin-left: 17%;
+    margin-top: 7%;
+}
 
-</style>
+.btn-group-lg{
+	color: white;
+ }
+
